@@ -1,0 +1,178 @@
+/* Created By Valunth */
+
+.single-class {
+
+    transition: all .4s;
+
+    min-height: 165px
+
+}
+
+
+
+.single-class:hover {
+
+    background: #ececec !important;
+
+    cursor: pointer
+
+}
+
+
+
+.single-class a {
+
+    opacity: 0;
+
+    transition: .4s;
+
+    margin-bottom: -15px
+
+}
+
+
+
+.single-class:hover a {
+
+    opacity: 1
+
+}
+
+
+
+.single-class h5 {
+
+    transition: .4s;
+
+    margin-top: 45px
+
+}
+
+
+
+.single-class:hover h5 {
+
+    margin-top: -5px !important
+
+}
+
+
+
+
+
+li.list-group-item:hover {
+
+    background: #e0e0e0
+
+}
+
+
+input::placeholder {
+
+    color: #c5c5c5 !important
+
+}
+
+
+
+.btn-primary {
+
+    background-color: #1b538c !important;
+
+    border-color: #1b538c !important
+
+}
+
+
+
+.btn-primary:hover {
+
+    background-color: #142c44 !important;
+
+    border-color: #142c44 !important
+
+}
+
+
+
+button i {
+
+    font-size: 20px !important
+
+}
+
+
+
+.navbar.fixed-bottom .d-flex h5 {
+
+    font-size: 16px;
+
+    line-height: 15px;
+
+    margin: 2px 0 0
+
+}
+
+
+
+.modal {
+
+    background: 0 0;
+
+    justify-content: center;
+
+    align-items: center
+
+}
+
+
+
+.modal-dialog {
+
+    min-width: 500px
+
+}
+
+
+
+.badge-dark {
+
+    background-color: #445969 !important
+
+}
+
+
+
+.input-group-prepend .input-group-text {
+
+    font-weight: 500
+
+}
+
+
+
+.input-group-prepend {
+
+    width: 31.8% !important
+
+}
+
+
+
+.btn-light {
+
+    background-color: #ECECEC
+    
+}
+
+
+
+.btn-light:hover {
+
+    background-color: #17A2B8;
+
+    color: #fff;
+
+    border-color: #17A2B8
+
+}
