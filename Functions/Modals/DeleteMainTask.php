@@ -16,9 +16,9 @@
                         <select class="form-control" id="delete-task-lists" style="max-width: 170px;margin-left: 15px;">
                         <option disabled selected value>Bir Başlık Seç</option>
                             <?php 
-                            if(!empty($ResultData['Data'])){
-                                for($i=0;$i<count($ResultData['Data']);$i++){?>
-                                    <option value="<?php echo $ResultData['Data'][$i]['publicID'];?>"><?php echo $ResultData['Data'][$i]['taskTitle'];?> </option><?php
+                            if(!empty($ResultData['tasksData'])){
+                                for($i=0;$i<count($ResultData['tasksData']);$i++){?>
+                                    <option value="<?php echo $ResultData['tasksData'][$i]['publicID'];?>"><?php echo $ResultData['tasksData'][$i]['taskTitle'];?> </option><?php
                                 }
                             }?>
                         </select>
